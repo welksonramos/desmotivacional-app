@@ -30,7 +30,10 @@ plugins/android.json
 plugins/ios.json
 www/
 $RECYCLE.BIN/
+!resources/icon.png
+!resources/splash.png
 
 .DS_Store
+package-lock.json
 Thumbs.db
 UserInterfaceState.xcuserstate
