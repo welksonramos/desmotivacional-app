@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.com.welksonramos.desmotivacional" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>desmotivacional-app</name>
+<widget id="br.com.welksonramos.desmotivacional" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Desmotivacional</name>
     <description>Frases desmotivacionais em seu dispositivo android.</description>
     <author email="welksonr@hotmail.com" href="http://github.com/welksonramos">Welkson Ramos</author>
     <content src="index.html" />
