@@ -21,8 +21,9 @@ export class MyApp {
   }
 
   initializeApp() {
-    this.statusBar.styleDefault();
+    this.statusBar.backgroundColorByHexString("#1b2836");
     this.splashScreen.hide();
   }
+
 }
 

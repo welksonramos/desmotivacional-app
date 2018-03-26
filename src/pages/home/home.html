@@ -12,17 +12,14 @@
 </ion-header>
 
 <ion-content no-padding>
-  <h1 text-center>Mensagem do dia</h1>
   <ion-card>
-    <ion-card-content>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius possimus odio vitae laudantium unde dicta debitis reiciendis
-        quod ea molestiae nihil, repudiandae tempore iusto dolores! Blanditiis, debitis! Aliquid, et eos.</p>
+    <ion-card-content [innerHTML]="quote">
+      <p> {{quote}}</p>
     </ion-card-content>
   </ion-card>
-
+  <ion-fab bottom center>
+    <button ion-fab (click)="randomQuotes()">
+      <ion-icon name="refresh"></ion-icon>
+    </button>
+  </ion-fab>
 </ion-content>
-<ion-footer no-border no-shadow padding>
-  <button ion-button block outline color="light">
-    Frase aleatória
-  </button>
-</ion-footer>

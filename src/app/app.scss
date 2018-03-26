@@ -15,11 +15,9 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
-.toolbar-background,
-.scroll-content,
-ion-footer{
+.toolbar-background {
   color: #fff;
-  background: #1f1e31;
+  background: #1b2836;
 }
 
 .toolbar-title,
@@ -27,6 +25,37 @@ ion-icon {
   color: #fff;
 }
 
-ion-card{
-  color: #1f1e31;
+.scroll-content{
+  display: flex;
+  flex-flow: row wrap;
+  align-items:center;
+  background: rgba(27, 40, 54,.75)
+
+}
+
+ion-card {
+  display: flex;
+  flex-flow: row wrap;
+  align-items:center;
+  color: rgba(27, 40, 54,.7);
+  &:before{
+    position: relative;
+    margin: 10px auto;
+    color: map-get($colors, danger);
+    font-size: 3rem;
+    content: "\1F4CD";
+  }
+}
+
+.card-content{
+  font-size: 3.3rem;
+  font-style:italic;
+  &:before{
+    content: "\275D";
+    margin-right: 15px;
+  }
+  &:after {
+    content: '\275E';
+    margin-left: 15px;
+  }
 }
