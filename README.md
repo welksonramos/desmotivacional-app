@@ -1,6 +1,13 @@
 # desmotivacional-app
 > Frases desmotivacionais em seu dispositivo :vibration_mode:
 
+:pencil: _**Nota:** O objetivo deste app não é promover nenhum tipo de bullyng mas sim dá aquele lembrete de que nem tudo são flores._
+
+
+## Preview
+
+  <img src="resources/screenshots/screenshot.png" alt="Home">
+
 
 ## Pré-requisitos
 Assumindo que você já tenha o Node instalado em sua máquina.
@@ -13,7 +20,7 @@ npm install -g cordova
 Assumindo que você já tenha o Git instalado como pré-requisito.
 ```
 git clone https://github.com/welksonramos/desmotivacional-app.git
-cd devocional-app
+cd desmotivacional-app
 npm install
 ionic cordova platform add ios
 ionic cordova platform add android
@@ -38,5 +45,8 @@ ionic cordova resources android
 ionic cordova resources ios
 ```
 
+## Relacionado
+
+- [desmotivacional-cli](https://github.com/welksonramos/desmotivacional-cli) - Mensagens desmotivacionais via linha de comando
 ## LICENÇA
-[MIT License](LICENSE) &copy; Welkson Ramos
+[MIT LICENSE](LICENSE.md) &copy; Welkson Ramos
